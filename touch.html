@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="valen_design.css" />
+  </head>
+  <body>
+    <h2>Touch the heart</h2>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3SD3D-3vFLfo0rRIPwP3vXXCEK0ZlRTxgAQ&s"
+      alt="heart"
+      width="500px"
+      style="cursor: pointer"
+      onclick="askLove()"
+    />
+
+    <script>
+      function askLove() {
+        let answer = confirm("Do you love me ?");
+        if (answer) {
+          alert("you be my Valentine");
+        } else {
+          alert("Its okye");
+        }
+      }
+    </script>
+  </body>
+</html>

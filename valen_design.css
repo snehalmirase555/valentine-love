@@ -1,0 +1,33 @@
+/* body {
+  background-color: rgb(124, 223, 232);
+} */
+div {
+  text-align: center;
+  transition-duration: 2s;
+}
+input {
+  padding-left: 20px;
+  width: 80px;
+}
+
+button {
+  background-color: pink;
+}
+
+
+h3 {
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  padding-left: 0%;
+  color: rgb(65, 5, 195);
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  line-height: 25px;
+
+}
+/* img {
+  height: 110px;
+  width: 140px;
+} */
